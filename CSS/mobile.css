@@ -1,0 +1,227 @@
+/* HEADER */
+
+/*---MENU/NAV---*/
+
+nav {
+    background-color: black;
+    display: flex;
+    padding: 5px;
+}
+
+    h2#h2-nav {
+        margin-left: 10px;
+        color: white;
+        font-family: 'arial';
+    }
+
+    ul {
+    position:absolute;
+    right: 10px;
+    align-items: center ;
+    list-style: none;
+    display: flex;
+    }
+
+        a{
+            color: white;
+            text-decoration: none;    
+        }
+
+        a:hover{
+            color: lightgrey;
+        }
+
+
+/*---CONTEUDO---*/
+
+div#header-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+    h1#div-h1-main{
+        color: var(--light-h1-main);
+        text-align: center;
+        width: 540px;
+        position: static;
+        margin: auto;
+        margin-top: 40px;
+        font-weight: bolder;  
+        font-size: 50px;      
+    }
+
+    p#div-p-main {
+        color: var(--light-p-apresentacao);
+        text-align: center;
+        width: 476px;
+        position: static;
+        margin: auto;
+        margin-top: 15px;
+        font-size: 24px;
+    }
+
+    .texto-destaque {
+        color: var(--light-texto-destaque);
+    }
+
+    div#minha-img {
+        width: 250px;
+        height: 250px;
+        position: static;
+        margin: auto;
+        margin-top: 40px;
+        border: 6px solid var(--light-borda-img);
+        border-radius: 100%;
+    }
+
+/* MAIN */
+
+main {
+    position: static;
+}
+
+    p#p-main-quebralinha{
+        color: var(--light-background);
+        margin-top: 100px;
+    }
+
+/* --SEÇÃO SOBRE MIM-- */
+
+section.Sobre {
+    display: flex;
+}
+
+    div#Sobre-Mim{
+        background-color: black;
+        width: 400px;
+        height: 550px;
+        position: static;
+        color: white;
+        margin: auto;
+    }
+
+        div#Sobre-Mim > h2 {
+            position: static;
+            text-align: center;
+            font-size: 40px;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        div#Sobre-Mim > p {
+            position: static;
+            margin-top: 50px;
+            margin-left: 17px;
+            text-align: center;
+            font-size: 25px;
+            width: 90%
+        }
+
+    div#Linguagens{
+        border: 4px solid var(--light-borda-linguagens);
+        width: 400px;
+        height: 550px;
+        margin: auto;
+        position: static;
+        margin-top: 70px;
+    }
+
+        div#Linguagens > h2 {
+            width: 100%;
+            position: relative;
+            text-align: center;
+            font-size: 40px;
+            margin-top: 20px;
+            text-align: center;
+            color: var(--light-h2-linguagens);
+        }
+
+/* --SEÇÃO PROJETOS-- */
+
+p#p-main-quebralinha2{
+    color: var(--light-background);
+    margin-top: 110px;
+}
+
+section#Projetos1{
+    margin: auto;
+    display: flex;
+    max-width: 750px;
+}
+
+    div.projeto{
+        width: 180px;
+        height: 180px;
+        border: 4px solid black;
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    div.projetofirst {
+        margin-left:0px
+    }
+
+        div.projeto > h3{
+            position: static;
+            margin: auto;
+            margin-top: -30px;
+            color: var(--light-nome-lingua);
+            background-color: black;
+            width: 80px;
+
+        }
+
+        div.projeto > h4{
+            margin-top:185px ;
+            color: var(--light-nome-projeto);
+            background-color: black;
+        }
+
+        div.projeto > p{
+            color: var(--light-descricao-projeto);
+        }
+
+            .projetos-nome{
+                margin-left: 50px;
+                border: 4px solid black;
+                border-radius: 20%;
+            }
+
+
+section#Projetos2{
+    margin: auto;
+    display: flex;
+    max-width: 750px;
+    margin-top: 200px;
+
+}
+
+/* BOTÃO TOP */
+
+#btnTop {
+    position: fixed;
+    bottom: 65px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 7px 7px 0;
+    padding: 5px;
+    display: inline-block;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}

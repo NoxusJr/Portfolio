@@ -1,0 +1,30 @@
+nav {
+    padding: 15px;
+}
+
+div#Sobre-Mim{
+    
+    background-color: black;
+    width: 800px;
+    height: 550px;
+    position: absolute;
+    left: 110px;
+    color: white;
+}
+
+    div#Sobre-Mim > h2 {
+        position: absolute;
+        text-align: center;
+        font-size: 40px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    div#Sobre-Mim > p {
+        position: absolute;
+        top: 150px;
+        margin-left: 17px;
+        text-align: center;
+        font-size: 25px;
+        width: 90%
+    }
