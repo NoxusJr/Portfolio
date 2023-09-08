@@ -16,6 +16,11 @@ html {
     height: 100vh;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 /* VARIÁVEIS CSS */
 
 :root {
@@ -119,6 +124,36 @@ nav {
 }
 
 /* MAIN */
+
+/*---SEÇÃO PROJETOS---*/
+
+#h1-title-projetos {
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex:1 1 200px;
+    margin: auto;
+    margin: 10px;
+}
+
+img {
+    margin: auto;
+}
+
+
+
+
 
 /* BOTÃO TOP */
 
