@@ -15,3 +15,9 @@ function ocultar(){
         btn.style.display = "none"
     }
 }
+
+// LIGHT TO DARK MODE
+
+function trocarModo(){
+    return document.documentElement.classList.toggle('dark')
+}

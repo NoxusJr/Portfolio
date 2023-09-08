@@ -41,26 +41,37 @@ img {
     --light-nome-lingua: white;
     --light-nome-projeto: white;
     
+    --light-voltar-topo-fundo:black;
+    --light-voltar-topo-seta:white;
+}
+    
     /*----------------------------------------*/
     
     /* DARK MODE */
+    .dark:root{
+    --light-background: #232323;
     
-    --dark-background: #232323;
-    
-    --dark-texto-destaque: #00BF63;
-    --dark-borda-img: white;
-    --dark-h1-main: white;
-    --dark-p-apresentacao: white;
+    --light-texto-destaque: #00BF63;
+    --light-borda-img: white;
+    --light-h1-main: white;
+    --light-p-apresentacao: white;
     
     
-    --dark-borda-linguagens: #D9D9D9;
-    --dark-h2-linguagens: #A6A6A6;
+    --light-borda-linguagens: #D9D9D9;
+    --light-h2-linguagens: #A6A6A6;
     
-    --dark-nome-lingua: #A6A6A6;
-    --dark-nome-projeto: #A6A6A6;        
-    }
+    --light-nome-lingua: #A6A6A6;
+    --light-nome-projeto: #A6A6A6;    
+    
+    --light-voltar-topo-fundo:white;
+    --light-voltar-topo-seta:black;
+    }   
 
-/* RESPONSIVO */
+/* BODY */
+
+body {
+    background-color: var(--light-background);
+}
 
 /* HEADER */
 
@@ -74,6 +85,14 @@ nav {
         margin-left: 10px;
         color: white;
         font-family: 'arial';
+    }
+
+    #botao-troca-modo{
+        margin-left: 10px;
+        background-color: black;
+        color: white;
+        border: 2px solid orange;
+        cursor: pointer;
     }
 
 /*---DISPLAY NONE (Mobile Version)---*/
@@ -103,6 +122,7 @@ nav {
     margin: auto;
     margin-top: 60px;
     text-align: center;
+    color: var(--light-h1-main);
 }
 
 #minha-img {
@@ -118,6 +138,7 @@ nav {
     margin: auto;
     margin-top: 30px;
     text-align: center;
+    color: var(--light-p-apresentacao);
 }
 
 /* MAIN */
@@ -157,6 +178,7 @@ nav {
     text-align: center;
     margin-top: 70px;
     margin-bottom: 50px;
+    color: var(--light-h2-linguagens);
 }
 
 .flex {
@@ -195,7 +217,7 @@ img {
     right: 10px;
     width: 15px;
     height: 15px;
-    background-color: black;
+    background-color: var(--light-voltar-topo-fundo);
     border-radius: 50%;
     display: flex;
     flex-direction: row;
@@ -205,7 +227,7 @@ img {
 }
 
 .arrow {
-    border: solid white;
+    border: solid var(--light-voltar-topo-seta);
     border-width: 0 2px 2px 0;
     padding: 3px;
     display: inline-block;
@@ -293,6 +315,7 @@ footer {
         position: absolute;
         top: 550px;
         right: 240px;
+        z-index: -11;
     }
 
     #h1-title-projetos {
@@ -307,7 +330,7 @@ footer {
         right: 10px;
         width: 50px;
         height: 50px;
-        background-color: black;
+        background-color: var(--light-voltar-topo-fundo);
         border-radius: 50%;
         display: flex;
         flex-direction: row;
@@ -317,7 +340,7 @@ footer {
     }
 
     .arrow {
-        border: solid white;
+        border: solid var(--light-voltar-topo-seta);
         border-width: 0 7px 7px 0;
         padding: 5px;
         display: inline-block;
@@ -350,8 +373,19 @@ footer {
         font-size: 50px;
     }
 
-    nav > ul {
+    a {
         display: none;
+    }
+
+    #botao-troca-modo{
+        margin-left: 10px;
+        background-color: black;
+        width: 60px;
+        height: 60px;
+        color: white;
+        border: 2px solid orange;
+        border-radius: 100%;
+        cursor: pointer;
     }
 
     #h1-main{
@@ -391,7 +425,7 @@ footer {
         right: 10px;
         width: 50px;
         height: 50px;
-        background-color: black;
+        background-color: var(--light-voltar-topo-fundo);
         border-radius: 50%;
         display: flex;
         flex-direction: row;
@@ -401,7 +435,7 @@ footer {
     }
 
     .arrow {
-        border: solid white;
+        border: solid var(--light-voltar-topo-seta);
         border-width: 0 7px 7px 0;
         padding: 5px;
         display: inline-block;
