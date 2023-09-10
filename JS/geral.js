@@ -16,7 +16,7 @@ function ocultar(){
     }
 }
 
-// LIGHT TO DARK MODE
+// TROCA DE TEMA (LIGHT MODE - DARK MODE)
 
 function trocarModo(){
     return document.documentElement.classList.toggle('dark')

@@ -58,7 +58,7 @@ img {
     
     
     --light-borda-linguagens: #D9D9D9;
-    --light-h2-linguagens: #A6A6A6;
+    --light-h2-linguagens: white;
     
     --light-nome-lingua: #A6A6A6;
     --light-nome-projeto: #A6A6A6;    
@@ -132,6 +132,8 @@ nav {
     border-radius: 100%;
     width: 150px;
     height: 150px;
+    background-image: url(../IMG/favicon.jpg);
+    background-size: 150px 150px;
 }
 
 #p-main {
@@ -248,201 +250,14 @@ footer {
     bottom: 0px;
 }
 
-
-/* MEDIA QUERYS */
-
-/*---DESKTOP---*/
-
-@media screen and (min-width:1025px) and (max-width:1281px){
-
-/* HEADER */
-
-    #h1-main{
-        font-size: 50px;
-        width: 400px;
-        position: absolute;
-        top: 100px;
-        left: 100px;
-    }
-
-    #minha-img{
-        width: 300px;
-        height: 300px;
-        position: absolute;
-        top: 120px;
-        right: 150px;
-    }
-
-    #p-main{
-        font-size: 20px;
-        width: 295px;
-        position: absolute;
-        top: 280px;
-        left: 150px;
-    }
-
-    nav {
-        align-items: center;
-        padding: 5px;
-    }
-
-    a {
-        display: flex;
-    }
-
-/* SECTION'S */
-
-    #Sobre {
-        display: inline-block;
-    }
-
-    #sobre-mim {
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 300px;
-        height: 400px;
-        position: absolute;
-        top: 550px;
-        left: 240px;
-    }
-    #p-sobre-mim {
-        margin-top: 80px;
-    }
-
-    #linguagens-mim {
-        width: 450px;
-        height: 400px;
-        position: absolute;
-        top: 550px;
-        right: 240px;
-        z-index: -11;
-    }
-
-    #h1-title-projetos {
-        margin-top: 1000px;
-    }
-
-/* BOTÃO TOP */
-
-    #btnTop {
-        position: fixed;
-        bottom: 65px;
-        right: 10px;
-        width: 50px;
-        height: 50px;
-        background-color: var(--light-voltar-topo-fundo);
-        border-radius: 50%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-    }
-
-    .arrow {
-        border: solid var(--light-voltar-topo-seta);
-        border-width: 0 7px 7px 0;
-        padding: 5px;
-        display: inline-block;
-    }
-
-    .up {
-        transform: rotate(-135deg);
-        -webkit-transform: rotate(-135deg);
-    }
+.html-css{
+    color: rgb(255, 0, 0);
 }
 
-/*---TELAS GRANDES---*/
+.js{
+    color: yellow;
+}
 
-@media screen and (min-width:1400px){    
-
-/* HEADER */
-
-    nav {
-        margin: auto;
-        text-align: center;
-        align-items: center ;
-        background-color: black;
-        display: block;
-        padding: 1px;
-    }
-
-    h2#h2-nav {
-        color: white;
-        font-family: 'arial';
-        font-size: 50px;
-    }
-
-    a {
-        display: none;
-    }
-
-    #botao-troca-modo{
-        margin-left: 10px;
-        background-color: black;
-        width: 60px;
-        height: 60px;
-        color: white;
-        border: 2px solid orange;
-        border-radius: 100%;
-        cursor: pointer;
-    }
-
-    #h1-main{
-        font-size: 60px;
-    }
-
-    #minha-img {
-        width: 350px;
-        height: 350px;
-    }
-
-    #p-main {
-        font-size: 40px;
-        width: 740px;
-    }
-
-/* SECTION'S */
-
-    #h2-sobre-mim {
-        font-size: 40px;
-    }
-
-    #p-sobre-mim {
-        margin-top: 30px;
-        font-size: 25px;
-    }
-    
-    #h2-linguagens {
-        font-size: 40px;
-    }
-
-/* BOTÃO TOP */
-
-    #btnTop {
-        position: fixed;
-        bottom: 65px;
-        right: 10px;
-        width: 50px;
-        height: 50px;
-        background-color: var(--light-voltar-topo-fundo);
-        border-radius: 50%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-    }
-
-    .arrow {
-        border: solid var(--light-voltar-topo-seta);
-        border-width: 0 7px 7px 0;
-        padding: 5px;
-        display: inline-block;
-    }
-
-    .up {
-        transform: rotate(-135deg);
-        -webkit-transform: rotate(-135deg);
-    }
+.a-projetos{
+    display: flex;
 }
