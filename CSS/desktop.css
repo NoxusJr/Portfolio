@@ -34,6 +34,12 @@ a {
     display: flex;
 }
 
+.redes {
+    position: static;
+    width: 36px;
+    height: 36px;
+}
+
 /* SECTION'S */
 
 #Sobre {

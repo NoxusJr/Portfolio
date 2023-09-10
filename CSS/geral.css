@@ -36,7 +36,7 @@ img {
     --p-apresentacao: black;
     
     
-    --borda-linguagens: black;
+    --background-linguagens: rgb(227, 227, 227);
     --h2-linguagens: black;
     
     --nome-lingua: white;
@@ -62,7 +62,7 @@ img {
     --p-apresentacao: white;
     
     
-    --borda-linguagens: #D9D9D9;
+    --background-linguagens: rgb(46, 46, 46);
     --h2-linguagens: white;
     
     --nome-lingua: #A6A6A6;
@@ -80,6 +80,12 @@ img {
         background-repeat: no-repeat;
         background-position: center;
     }
+
+    #minha-img:hover{
+        border: 4px solid red;
+        transition: 0.3s;
+    }
+
     }   
 
 /* MOBILE FIRST */
@@ -113,12 +119,12 @@ nav {
         border: 0px;
         border-radius: 30%;
         cursor: pointer;
+        background-repeat: no-repeat;
     }
 
 /*---DISPLAY NONE (Mobile Version)---*/
 
     ul{
-    display: none;
     position:absolute;
     right: 10px;
     align-items: center ;
@@ -127,14 +133,16 @@ nav {
     }
 
         a{
-            display: none;
             color: white;
             text-decoration: none;    
+            margin-left: 20px;
+            margin-right: 20px;
         }
 
         a:hover{
             color: lightgrey;
         }
+
 
 /*---HEADER CONTEUDO---*/
 
@@ -155,6 +163,12 @@ nav {
     background-image: url(../IMG/favicon.jpg);
     background-size: 150px 150px;
 }
+
+#minha-img:hover{
+    border: 4px solid #00BF63 ;
+    transition: 0.3s;
+}
+
 
 #p-main {
     margin: auto;
@@ -183,7 +197,6 @@ nav {
 }
 
 #linguagens-mim {
-    border: 4px solid var(--borda-linguagens);
     max-width: 80%;
     height: 250px;
     margin: auto;
@@ -191,6 +204,7 @@ nav {
     color: var(--h2-linguagens);
     text-align: center;
     padding: 5px;
+    background-color: var(--background-linguagens);
 }
 
 /*---SECTION PROJETOS---*/
@@ -270,6 +284,8 @@ footer {
     bottom: 0px;
 }
 
+/* OUTRAS CONFIGS */
+
 .html-css{
     color: rgb(255, 0, 0);
     font-weight: bolder;
@@ -301,4 +317,12 @@ footer {
 
 ::-webkit-scrollbar-thumb{
     background-color: var(--scrollbar-thumb);
+}
+
+.redes {
+    position: absolute;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    margin-left: 10 px;
 }
