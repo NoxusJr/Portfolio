@@ -68,8 +68,31 @@ a {
     z-index: -11;
 }
 
-#h1-title-projetos {
+.h1-title-sections {
     margin-top: 1000px;
+}
+
+/* SECTIONS HABILIDADES */
+
+#div-habilidades{   
+    max-width: 800px;
+    max-height: 210px;
+}
+
+#p-habilidades{
+    font-size: 35px;
+}
+
+#p-git, #p-gestao{
+    margin-left: 27px;
+}
+
+#p-ingles{
+    margin-left: 33px;
+}
+
+#p-sql{
+    margin-left: 98px;
 }
 
 /* BOTÃO TOP */

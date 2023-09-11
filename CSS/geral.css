@@ -47,6 +47,9 @@ img {
 
     --scrollbar:rgb(225, 225, 225);
     --scrollbar-thumb:#00BF63;
+
+    --color-texto-habilidades: black;
+    --background-habilidades: rgb(227,227,227);
 }
     
     /*----------------------------------------*/
@@ -73,6 +76,9 @@ img {
 
     --scrollbar: black;
     --scrollbar-thumb:#c80b0b;
+
+    --color-texto-habilidades:white;
+    --background-habilidades: rgb(46, 46, 46);
     
     #botao-troca-modo{
         background: url(../IMG/light.png);
@@ -209,7 +215,11 @@ nav {
 
 /*---SECTION PROJETOS---*/
 
-#h1-title-projetos {
+#h1-title-projetos{
+    font-size: 30px;
+}
+
+.h1-title-sections {
     margin: auto;
     text-align: center;
     margin-top: 70px;
@@ -235,15 +245,77 @@ img {
     margin: auto;
 }
 
+.a-projetos{
+    display: flex;
+    margin: 0px;
+}
+
 .titulo-legenda {
+    margin: auto;
     text-align: center;
     color: var(--nome-projeto);
     background-color: black;
+ 
 }
 
 .descricao-legenda {
     color: #D9D9D9;
 }
+
+/*---SECTION HABILIDADES---*/
+
+#h1-habilidades{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#div-habilidades{
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 400px;
+    max-height: 150px;
+    border: 3px solid black;
+    background-color: var(--background-habilidades);
+}
+
+.color{
+    color: var(--color-texto-habilidades);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.color-1:hover{
+    color: red;
+}
+.color-2:hover{
+    color: #00BF63;
+}
+.color-3:hover{
+    color: rgb(188, 188, 1);
+}
+
+.color-4:hover{
+    color: blue;
+}
+
+#p-gestao{
+    margin-left: 12px;
+}
+
+#p-git {
+    margin-left:11.5px;
+}
+
+#p-ingles{
+    margin-left: 15.5px;
+}
+
+#p-sql{
+    margin-left: 46px;
+}
+
 
 /* BOTÃO TOP */
 
@@ -306,10 +378,6 @@ footer {
     font-weight: bolder;
 }
 
-.a-projetos{
-    display: flex;
-}
-
 ::-webkit-scrollbar{
     background-color: var(--scrollbar);
     width: 5px;
@@ -325,4 +393,9 @@ footer {
     width: 20px;
     height: 20px;
     margin-left: 10 px;
+}
+
+#Bem-Vindo:hover{
+    transition: 0.2s;
+    color: var(--texto-destaque);
 }
