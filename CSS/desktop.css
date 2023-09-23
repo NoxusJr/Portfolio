@@ -43,17 +43,21 @@ a {
 /* SECTION'S */
 
 #Sobre {
-    display: inline-block;
+    display: flex;
 }
 
 #sobre-mim {
+    
+    position: relative;
+    margin-top: 570px;
     padding-left: 10px;
     padding-right: 10px;
     width: 300px;
     height: 400px;
-    position: absolute;
+    margin-left: 220px;
+/*    position: absolute;
     top: 560px;
-    left: 240px;
+    left: 240px; */
 }
 #p-sobre-mim {
     margin-top: 80px;
@@ -62,14 +66,21 @@ a {
 #linguagens-mim {
     width: 450px;
     height: 400px;
-    position: absolute;
+    margin-top: 570px;
+    margin-right: 220px;
+/*    position: absolute;
     top: 560px;
     right: 240px;
-    z-index: -11;
+    z-index: -11; */
 }
 
 .h1-title-sections {
-    margin-top: 1000px;
+    margin-top: 100px;
+}
+
+p#p-linguagens{
+    display: flex;
+    margin-top: 50px;
 }
 
 /* SECTIONS HABILIDADES */
