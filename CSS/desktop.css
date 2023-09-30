@@ -74,8 +74,19 @@ a {
     z-index: -11; */
 }
 
+#h1-title-projetos{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    width: 700px;
+}
+
 .h1-title-sections {
-    margin-top: 100px;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: var(--h2-linguagens);
 }
 
 p#p-linguagens{
