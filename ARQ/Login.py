@@ -1,3 +1,5 @@
+# ULTIMA ATUALIZAÇÃO: 29/09/23
+
 import mysql.connector
 
 # CRIANDO CONEXÃO COM O BANCO DE DADOS
@@ -10,6 +12,8 @@ conexao = mysql.connector.connect(
 )
 
 cursor = conexao.cursor()
+
+# FUNÇÕES
 
 def criarConta():
     print("Você Escolheu Criar Uma Conta")

@@ -1,4 +1,5 @@
 #FEITO PARA PORTFÓLIO E ESTUDO S2
+#ULTIMA ATUALIZAÇÃO: 29/09/2023
 
 import os
 from tkinter.filedialog import askdirectory
@@ -7,7 +8,7 @@ caminho = askdirectory(title="Selecione Uma Pasta")
 
 lista_arquivos = os.listdir(caminho)
 
-#DICIONÁRIO
+#SEPARANDO OS TIPOS DE ARQUIVOS
 
 locais = {
     "imagens": [".png", ".jpg", ".gif", ".bmp", ".webp", ".tiff", ".raw"],
@@ -15,7 +16,9 @@ locais = {
     "musicas": [".mp3", ".wav", ".aac"],
     "videos": [".mp4", ".mov", ".wmv", ".avi", ".avchd", ".mkv"],
     "planilhas":[ ".xls", ".xlsx", ".csv"],
-    "scripts":[".js",".py",".html", ".css", ".php",".java"]
+    "scripts":[".js",".py",".html", ".css", ".php",".java"],
+    "executaveis":[".exe"],
+    "compactados":[".rar",".zip"]
 }
 
 for arquivo in lista_arquivos:
