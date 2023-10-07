@@ -8,11 +8,11 @@
     <img align="center" alt="javascript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 </div>
 
-### Objetivos Do Projeto
+### Objetivos Do Projeto:
 
     A principal meta é fazer uma apresentação sobre mim, sobre minhas habilidades e sobre meus objetivos.
 
-### Projetos Demonstrativos Presentes No Portfólio
+### Projetos Demonstrativos Presentes No Portfólio:
 <br>
 <ul>
     <li>PlayerMP3 <span  style="color:lightgreen">- Python</span></li>
