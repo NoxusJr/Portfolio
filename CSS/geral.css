@@ -210,14 +210,16 @@ nav {
 
 #linguagens-mim {
     max-width: 80%;
-    height: 450px;
+    height: 420px;
     margin: auto;
     margin-top: 50px;
     color: var(--h2-linguagens);
     text-align: center;
     padding: 5px;
     background-color: var(--background-linguagens);
+
 }
+
 
 p#p-linguagens{
     display: flex;
@@ -355,8 +357,8 @@ img {
     position: fixed;
     bottom: 65px;
     right: 10px;
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     background-color: var(--voltar-topo-fundo);
     border-radius: 50%;
     display: flex;
