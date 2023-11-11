@@ -229,7 +229,7 @@ p#p-linguagens{
     font-size: 15.4px;
 }
 
-img.logos-linguagens {
+.logos-linguagens {
     display: inline-block;
     margin-left: 8px;
     margin-right: 8px;
@@ -240,8 +240,50 @@ img.logos-linguagens {
 }
 
 .logos-linguagens:hover{
-    border-radius: 30%;
+    transition: 0s;
     border: 2.5px solid black;
+    border-style: dashed;
+}
+
+/*---SECTION PROJETOS PRINCIPAIS---*/
+
+#h1-title-principais-projetos{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    width: 250px;
+}
+
+section#projetos-principais{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section#projetos-principais > div{
+    margin: 10px;
+}
+
+div.config-geral-projetos{
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+}
+
+div.titulo-tecnologia{
+    background-color: black;
+    width: 300px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bolder;
+}
+
+div.img-projeto-principal{
+    background-color: rgb(226, 225, 225);
+    width: 300px;
+    height: 270px;
 }
 
 /*---SECTION PROJETOS---*/

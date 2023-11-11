@@ -42,35 +42,71 @@ a {
 
 /* SECTION'S */
 
-#Sobre {
+section#Sobre {
+    margin-top: 570px;
     display: flex;
+    align-items: center;
+    justify-content: 4px;
 }
 
 #sobre-mim {
-    
-    position: relative;
-    margin-top: 570px;
     padding-left: 10px;
     padding-right: 10px;
     width: 300px;
     height: 400px;
-    margin-left: 220px;
-/*    position: absolute;
-    top: 560px;
-    left: 240px; */
 }
 #p-sobre-mim {
     margin-top: 80px;
 }
 
 #linguagens-mim {
+    margin-left: -100px;
     width: 450px;
     height: 400px;
-    margin-top: 570px;
-    margin-right: 220px;
     background-image: url(../IMG/backgrounds/lang.png);
     background-position: center;
 }
+
+
+
+#h1-title-principais-projetos{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    width: 700px;
+}
+
+section#projetos-principais{
+    display: flex;
+    justify-content: center;
+}
+
+section#projetos-principais > div{
+    margin: 10px;
+}
+
+div.config-geral-projetos{
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+}
+
+div.titulo-tecnologia{
+    background-color: black;
+    width: 300px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font-weight: bolder;
+}
+
+div.img-projeto-principal{
+    background-color: rgb(226, 225, 225);
+    width: 300px;
+    height: 270px;
+}
+
 
 #h1-title-projetos{
     font-size: 30px;
