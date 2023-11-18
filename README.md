@@ -15,6 +15,8 @@
 ### Projetos Demonstrativos Presentes No Portfólio:
 <br>
 <ul>
+    <li>Livraria <span  style="color:lightgreen">- Full-Stack</span></li>
+    <li>Real Control | Mario <span  style="color:lightgreen">- Pytho</span></li>
     <li>PlayerMP3 <span  style="color:lightgreen">- Python</span></li>
     <li>Login Com SQL <span style="color:lightgreen">- Python</span></li>
     <li>Clima Com API <span style="color:lightgreen">- Python</span></li>
