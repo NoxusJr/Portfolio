@@ -1,0 +1,5 @@
+div#foto-conteudo{
+    background: url(../../IMG/logos-projetos/300x270/livraria.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
