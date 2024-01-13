@@ -1,0 +1,35 @@
+main{
+    display: grid;
+    place-items: center;
+}
+
+div.projeto{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 250px 450px;
+    grid-template-rows: 250px 40px;
+    grid-column-gap: 100px;
+    grid-row-gap: 20px;
+}
+
+div#descricao-conteudo{
+    height: 310px;
+}
+
+div#botao-conteudo{
+    margin: 0;
+}
+
+a#link-projeto{
+    margin: 0;
+    padding-top:12px ;
+    padding-bottom:12px ;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+p#aviso-download{
+    display: none;
+}
+
+
