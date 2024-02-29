@@ -8,7 +8,8 @@
     --h1-main: black;
     --p-presentation: black;
 
-    --describe-section:black;
+    --describe-section-background:black;
+    --describe-section-text:white;
     
     --background-skills: rgb(227, 227, 227);
     
@@ -31,9 +32,9 @@
     --h1-main: white;
     --p-presentation: white;
 
-    --describe-section:rgb(190, 190, 190);
-
     --background-skills: rgb(46, 46, 46);
+
+    --describe-section-text:rgb(204, 204, 204);
 
     --voltar-topo-fundo:white;
     --voltar-topo-seta:black;

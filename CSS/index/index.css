@@ -42,9 +42,12 @@ div#about-me > p{
 }
 
 h1.describe-section{
+    margin: auto;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: var(--describe-section);
+    background-color: var(--describe-section-background);
+    color: var(--describe-section-text);
+    width: 85%;
 }
 
 section#skills {
@@ -81,5 +84,68 @@ div.main-project{
     margin-top: 40px;
     width: 350px;
     height: 350px;
-    border: 1px solid black;
+}
+
+div#curso-online{
+    background: url('../../IMG/PROJECTS/main-cursosOnline.png');
+}
+
+div#mario-fit{
+    background: url('../../IMG/PROJECTS/main-marioFit.png');
+}
+
+div#post-it{
+    background: url('../../IMG/PROJECTS/main-postIts.png');
+}
+
+
+h1#my-others-projects{
+    margin-top: 80px;
+}
+
+div.other-project{
+    margin: auto;
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+div#organizador-pasta{
+    background: url('../../IMG/PROJECTS/organizador-de-pasta.png');
+}
+
+div#utility-pack{
+    background: url('../../IMG/PROJECTS/Utility\ Pack.png');
+}
+
+div#joguinho{
+    background: url('../../IMG/PROJECTS/Joguinho.png');
+}
+
+div#notas-cinema{
+    background: url('../../IMG/PROJECTS/Notas-Cinema.png');
+}
+
+div#jornal{
+    background: url('../../IMG/PROJECTS/jornal.png');
+}
+
+div#player{
+    background: url('../../IMG/PROJECTS/player-mp3.png');
+}
+
+div#games-utilities{
+    background: url('../../IMG/PROJECTS/games-utilities.png');
+}
+
+div#hamburgueria{
+    background: url('../../IMG/PROJECTS/hamburgueria.png');
+}
+
+div#jogo-csharp{
+    background:url('../../IMG/PROJECTS/jogo-csharp.png');
 }
