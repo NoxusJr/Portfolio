@@ -1,0 +1,50 @@
+:root {
+    --background: white;
+    --nav-background: black;    
+    --nav-text:white;
+
+    --texto-destaque: #E60D0D;
+    --borda-img: black;
+    --h1-main: black;
+    --p-apresentacao: black;
+    
+    --background-linguagens: rgb(227, 227, 227);
+    --h2-linguagens: black;
+    
+
+    --voltar-topo-fundo:black;
+    --voltar-topo-seta:white;
+
+    --scrollbar:rgb(225, 225, 225);
+    --scrollbar-thumb:#00BF63;
+
+    --background-habilidades: rgb(227,227,227);
+}
+    
+    
+.dark:root{
+    --background: #232323;
+
+    --texto-destaque: #00BF63;
+    --borda-img: white;
+    --h1-main: white;
+    --p-apresentacao: white;
+
+    --background-linguagens: rgb(46, 46, 46);
+    --h2-linguagens: white;
+
+    --voltar-topo-fundo:white;
+    --voltar-topo-seta:black;
+
+    --scrollbar: black;
+    --scrollbar-thumb:#c80b0b;
+
+    --background-habilidades: rgb(46, 46, 46);
+
+    input#changeMode {
+        background: url('../IMG/ICONS/light.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}   
