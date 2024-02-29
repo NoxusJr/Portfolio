@@ -12,13 +12,14 @@
 <body>
     
     <header>
-
         <nav>
+            <a id="article" class="nav-links" href="">Ver artigos</a>
+
             <ul>
-                <li id="artigos"><a class="nav-links" href="">Artigos</a></li>
                 <li><a class="nav-links" href=""><img src="IMG/ICONS/git.png" alt="" class="nav-icons"></a></li>
                 <li><a class="nav-links" href=""><img src="IMG/ICONS/insta.png" alt="" class="nav-icons"></a></li>
                 <li><a class="nav-links" href=""><img src="IMG/ICONS/lkd.png" alt="" class="nav-icons"></a></li>
+
                 <li><div id="nav-buttons">
                     <input type="button" value="" id="changeMode" onclick="toggleTheme()">
                     <input type="button" value="" id="changeLang" onclick="toggleLang()">
@@ -26,6 +27,14 @@
             </ul>
         </nav>
 
+        <section id="presentation">
+            <div id="my-image"></div>
+
+            <div id="about-me">
+                <h1 id="h1-main">Bem vindo ao meu portfólio</h1>
+                <p id="p-main">Meu nome é George, sou programador full-stack com domínio de <span class="emphasis-text">Python</span>, <span class="emphasis-text">PhP</span> e <span class="emphasis-text">JavaScript</span></p>
+            </div>
+        </section>
     </header>
 
     <script src="JS/toggle_theme.js"></script>

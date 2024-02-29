@@ -11,15 +11,16 @@ nav {
     background-color: var(--nav-background);
     padding: 5px;
     padding-right: 15px;
-    justify-content: end;
+    padding-left: 15px;
+    justify-content: space-between;
     align-items: center;
 }
 
 ul {
     display: flex;
-    column-gap: 15px;
     list-style: none;
     align-items: center;
+    column-gap: 15px;
 }
 
 li {
@@ -27,13 +28,14 @@ li {
     cursor: pointer;
 }   
 
-li#artigos {
-    margin-right: 50px;
-}
-
 a.nav-links {
     text-decoration: none;
     color: white;
+}
+
+a#article{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img.nav-icons {

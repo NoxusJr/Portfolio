@@ -1,0 +1,42 @@
+section#presentation{
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+}
+
+div#my-image{
+    margin: auto;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    background: url('../../IMG/OTHERS/favicon.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 3px solid var(--border-img);
+    border-radius: 100%;
+}
+
+div#about-me{
+    margin-top: 30px;
+    width: 100vw;
+    max-width: 100%;
+    text-align: center;
+}
+
+div#about-me > h1{
+    margin: auto;
+    width: 90%;
+    color: var(--h1-main);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 38px;
+}
+
+div#about-me > p{
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+    color: var(--p-presentation);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}

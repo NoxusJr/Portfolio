@@ -3,10 +3,10 @@
     --nav-background: black;    
     --nav-text:white;
 
-    --texto-destaque: #E60D0D;
-    --borda-img: black;
+    --emphasis-text: #E60D0D;
+    --border-img: black;
     --h1-main: black;
-    --p-apresentacao: black;
+    --p-presentation: black;
     
     --background-linguagens: rgb(227, 227, 227);
     --h2-linguagens: black;
@@ -25,10 +25,10 @@
 .dark:root{
     --background: #232323;
 
-    --texto-destaque: #00BF63;
-    --borda-img: white;
+    --emphasis-text: #00BF63;
+    --border-img: white;
     --h1-main: white;
-    --p-apresentacao: white;
+    --p-presentation: white;
 
     --background-linguagens: rgb(46, 46, 46);
     --h2-linguagens: white;
@@ -48,3 +48,7 @@
         background-size: cover;
     }
 }   
+
+.emphasis-text{
+    color: var(--emphasis-text);
+}
