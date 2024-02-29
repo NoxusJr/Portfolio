@@ -5,7 +5,10 @@ let textEnglish = {
     'articles':'See articles',
     'h1-main':'Welcome to my portfolio',
     'p-main':'My name is George, Im a full-stack programmer with command of <span class="emphasis-text">Python</span>, <span class="emphasis-text">PhP</span> and <span class=" emphasis-text">JavaScript</span>',
-    
+    'my-skills':'My Skills',
+    'my-main-projects':'Main Projects',
+    'footer-blackstudio':'<a href="https://blackstudiodev.vercel.app/" target="_blank">Get to know <span class="emphasis-text">Black Studio</span></a',
+    'footer-rights':'©️ 2024 George Júnior. All rights reserved.',
 }
 
 
@@ -48,8 +51,16 @@ function toEnglish(textEnglish){
     let articleText = document.getElementById('article')
     let h1Main = document.getElementById('h1-main')
     let pMain = document.getElementById('p-main')
+    let h1MySkills = document.getElementById('my-skills')
+    let h1MyMainProjects = document.getElementById('my-main-projects')
+    let footerBlackStudio = document.getElementById('footer-blackstudio')
+    let rights = document.getElementById('footer-rights')
 
     articleText.textContent = textEnglish['articles']
     h1Main.innerHTML = textEnglish['h1-main']
     pMain.innerHTML = textEnglish['p-main']
+    h1MySkills.innerHTML = textEnglish['my-skills']
+    h1MyMainProjects.innerHTML = textEnglish['my-main-projects']
+    footerBlackStudio.innerHTML = textEnglish['footer-blackstudio']
+    rights.innerHTML = textEnglish['footer-rights']
 }

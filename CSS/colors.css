@@ -7,9 +7,10 @@
     --border-img: black;
     --h1-main: black;
     --p-presentation: black;
+
+    --describe-section:black;
     
-    --background-linguagens: rgb(227, 227, 227);
-    --h2-linguagens: black;
+    --background-skills: rgb(227, 227, 227);
     
 
     --voltar-topo-fundo:black;
@@ -30,8 +31,9 @@
     --h1-main: white;
     --p-presentation: white;
 
-    --background-linguagens: rgb(46, 46, 46);
-    --h2-linguagens: white;
+    --describe-section:rgb(190, 190, 190);
+
+    --background-skills: rgb(46, 46, 46);
 
     --voltar-topo-fundo:white;
     --voltar-topo-seta:black;

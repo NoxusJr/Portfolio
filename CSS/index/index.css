@@ -1,7 +1,7 @@
 section#presentation{
     width: 100vw;
     max-width: 100%;
-    height: 100vh;
+    height: 600px;
 }
 
 div#my-image{
@@ -39,4 +39,47 @@ div#about-me > p{
     color: var(--p-presentation);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
+}
+
+h1.describe-section{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--describe-section);
+}
+
+section#skills {
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 90%;
+    flex-wrap: wrap;
+    background-color: var(--background-skills);
+    border-bottom: 15px solid rgb(0, 119, 255);
+    padding: 5px;
+}
+
+img.skills-img{
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+}
+
+img.skills-img:hover{
+    border: 2px dashed black;
+    cursor: pointer;
+}
+
+h1#my-main-projects{
+    margin-top: 80px;
+}
+
+div.main-project{
+    margin: auto;
+    margin-top: 40px;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
 }
