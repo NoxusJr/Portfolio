@@ -5,11 +5,13 @@ let textEnglish = {
     'articles':'See articles',
     'h1-main':'Welcome to my portfolio',
     'p-main':'My name is George, Im a full-stack programmer with command of <span class="emphasis-text">Python</span>, <span class="emphasis-text">PhP</span> and <span class=" emphasis-text">JavaScript</span>',
-    'my-skills':'My Skills',
+    'my-skills':'Skills Board',
     'my-main-projects':'Main Projects',
     'footer-blackstudio':'<a href="https://blackstudiodev.vercel.app/" target="_blank">Get to know <span class="emphasis-text">Black Studio</span></a',
     'footer-rights':'©️ 2024 George Júnior. All rights reserved.',
     'my-others-projects':'Others Projects',
+
+    'homepage':'Home Page',
 }
 
 
@@ -19,13 +21,18 @@ if (stateLang == null){
 
 } else if (stateLang == 'pt') {
     setImage("url('../IMG/ICONS/english.png')")
-
-
+        
 } else if (stateLang == 'en') {
     setImage("url('../IMG/ICONS/portugues.png')")
-    toEnglish(textEnglish)
-}
 
+    try{
+        toEnglishHome(textEnglish)
+    } catch {}
+
+    try{
+        toEnglishArticle(textEnglish)
+    } catch {}
+}
 
 
 function toggleLang(){
@@ -48,7 +55,7 @@ function setImage(url){
 }
 
 
-function toEnglish(textEnglish){
+function toEnglishHome(textEnglish){
     let articleText = document.getElementById('article')
     let h1Main = document.getElementById('h1-main')
     let pMain = document.getElementById('p-main')
@@ -66,4 +73,10 @@ function toEnglish(textEnglish){
     footerBlackStudio.innerHTML = textEnglish['footer-blackstudio']
     rights.innerHTML = textEnglish['footer-rights']
     h1OthersProjects.innerHTML = textEnglish['my-others-projects']
+}
+
+
+function toEnglishArticle(textEnglish){
+    let homepageText = document.getElementById('homepage')
+    homepageText.textContent = textEnglish['homepage']
 }

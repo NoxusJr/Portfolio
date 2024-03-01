@@ -1,0 +1,119 @@
+section#presentation{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    column-gap: 100px;
+}
+
+div#my-image{
+    margin: 0;
+    margin-top: 125px;
+    width: 300px;
+    height: 300px;
+}
+
+div#about-me{
+    margin: 0;
+    width: 400px;
+}
+
+div#about-me > p{
+    width: 300px;
+}
+
+div#about-me > h1 {
+    margin-top: 140px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-size: 55px;
+    width: 410px;
+    text-align: center;
+    font-weight: 650;
+}
+
+h1.describe-section{
+    width: 600px;
+}
+
+section#main-projects{  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+h1#my-others-projects{
+    margin-top: 140px;
+}
+
+section#others-projects{  
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+div.other-project{
+    margin: 0;
+    width: 250px;
+    height: 250px;
+}
+
+section#skills{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+section#skills {
+    width: 100%;
+    max-width: 100%;
+}
+
+div#skills-wall{
+    margin: auto;
+    background-color: var(--background-skills);
+    width: 80vw;
+    max-width: 80%;
+    padding-top: 15px;
+}
+
+h1#my-skills{
+    background-color: transparent;
+    color: var(--h1-skills-text);
+}
+
+h1#my-main-projects{
+    margin-top: 150px;
+}
+
+
+#btnTop {
+    position: fixed;
+    bottom: 65px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--voltar-topo-fundo);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.arrow {
+    border: solid var(--voltar-topo-seta);
+    border-width: 0 7px 7px 0;
+    padding: 5px;
+    display: inline-block;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}

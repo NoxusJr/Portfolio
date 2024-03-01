@@ -21,6 +21,7 @@
     --scrollbar-thumb:#00BF63;
 
     --background-habilidades: rgb(227,227,227);
+    --h1-skills-text:rgb(88, 88, 88);
 }
     
     
@@ -43,7 +44,8 @@
     --scrollbar-thumb:#c80b0b;
 
     --background-habilidades: rgb(46, 46, 46);
-
+    --h1-skills-text:rgb(185, 185, 185);
+    
     input#changeMode {
         background: url('../IMG/ICONS/light.png');
         background-position: center;

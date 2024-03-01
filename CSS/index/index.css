@@ -58,8 +58,8 @@ section#skills {
     justify-content: center;
     width: 90%;
     max-width: 90%;
-    flex-wrap: wrap;
     background-color: var(--background-skills);
+    flex-wrap: wrap;
     border-bottom: 15px solid rgb(0, 119, 255);
     padding: 5px;
 }
@@ -82,8 +82,10 @@ h1#my-main-projects{
 div.main-project{
     margin: auto;
     margin-top: 40px;
-    width: 350px;
-    height: 350px;
+    width: 300px;   
+    height: 300px;
+    box-shadow: 0px 0px 61px 0.1px rgba(0,0,0,0.37);
+
 }
 
 div#curso-online{
@@ -106,8 +108,8 @@ h1#my-others-projects{
 div.other-project{
     margin: auto;
     margin-top: 40px;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -148,4 +150,32 @@ div#hamburgueria{
 
 div#jogo-csharp{
     background:url('../../IMG/PROJECTS/jogo-csharp.png');
+}
+
+
+#btnTop {
+    position: fixed;
+    bottom: 65px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    background-color: var(--voltar-topo-fundo);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.arrow {
+    border: solid var(--voltar-topo-seta);
+    border-width: 0 2px 2px 0;
+    padding: 3px;
+    display: inline-block;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
 }
