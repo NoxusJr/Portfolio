@@ -20,10 +20,10 @@ if (stateLang == null){
     localStorage.setItem('lang','pt')
 
 } else if (stateLang == 'pt') {
-    setImage("url('../IMG/ICONS/english.png')")
+    setImage("url('IMG/ICONS/english.png')")
         
 } else if (stateLang == 'en') {
-    setImage("url('../IMG/ICONS/portugues.png')")
+    setImage("url('IMG/ICONS/portugues.png')")
 
     try{
         toEnglishHome(textEnglish)
